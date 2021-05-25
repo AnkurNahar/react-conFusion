@@ -31,7 +31,7 @@ class DishDetail extends Component{
                                 <div>
                                     <li>{comment.comment}</li>
                                     <br></br>
-                                    <li>-- {comment.author}</li>
+                                    <li>-- {comment.author}, {comment.date}</li>
                                     <br></br>
                                 </div>  
                             )  
